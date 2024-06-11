@@ -1,0 +1,29 @@
+input[type=text], input[type=email], textarea{
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #262730; 
+    border-radius: 9px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: none;
+    background-color: #262730;
+  }
+  
+  
+  button[type=submit] {
+    background-color: rgba(0,0,0,0);
+    color:#a03c3c;
+    padding: 12px 35px;
+    border: solid 1px;
+    border-color: #a03c3c;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+ 
+  button[type=submit]:hover {
+    background-color: #a03c3c;
+    color:white;
+    transition-duration: 0.5s;
+  }
